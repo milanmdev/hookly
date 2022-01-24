@@ -20,7 +20,6 @@
     "klaw": "^4.0.1",
     "moment": "^2.29.1",
     "ms": "^3.0.0-canary.1",
-    "node-fetch": "^2.6.1",
     "path": "0.12.7",
     "statcord.js": "^3.1.7",
     "superagent": "7.1.1",

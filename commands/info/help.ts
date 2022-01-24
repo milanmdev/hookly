@@ -62,9 +62,14 @@ module.exports = {
         .setLabel("Support Server")
         .setURL(client.config.data.support)
         .setStyle("LINK");
+      let githubLink = new Discord.MessageButton()
+        .setLabel("GitHub Repo")
+        .setURL("https://github.com/milanmdev/hookly")
+        .setStyle("LINK");
 
       let actionRow = new Discord.MessageActionRow().addComponents([
         supportLink,
+        githubLink,
       ]);
       await interaction.followUp({
         embeds: [categoriesEmbed],
