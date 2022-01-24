@@ -20,7 +20,7 @@ module.exports = async (client, interaction) => {
 
       skipStatcordLog = true;
       if (interaction.user.id !== application?.owner.id)
-        return interaction.followUp({
+        return interaction.reply({
           ephemeral: true,
           embeds: [
             client.functions.error(
@@ -37,7 +37,7 @@ module.exports = async (client, interaction) => {
         command.extraData.permissions
       );
       if (!userPermissions.hasPermissions) {
-        return interaction.followUp({
+        return interaction.reply({
           embeds: [
             client.functions.permissions("user", userPermissions.string),
           ],
@@ -51,7 +51,7 @@ module.exports = async (client, interaction) => {
         command.extraData.clientPermissions
       );
       if (!clientPermissions.hasPermissions) {
-        return interaction.followUp({
+        return interaction.reply({
           embeds: [
             client.functions.permissions("client", clientPermissions.string),
           ],
