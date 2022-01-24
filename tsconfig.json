@@ -1,0 +1,13 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["es5", "es2015", "es2017"],
+    "baseUrl": "./",
+    "paths": {
+      "@types": ["./types/index"]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "hookly",
+  "version": "1.0.0",
+  "description": "Manage your Discord server's webhooks via Slash Commands",
+  "main": "index.ts",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production ts-node index.ts",
+    "dev": "cross-env NODE_ENV=development nodemon index.ts",
+    "pull": "git fetch origin && git reset --hard origin/main && yarn install"
+  },
+  "dependencies": {
+    "@discordjs/builders": "0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "@milanmdev/discordjs-button-pagination": "^1.0.0",
+    "ascii-table": "0.0.9",
+    "chalk": "^4.1.2",
+    "cross-env": "^7.0.3",
+    "discord-api-types": "0.26.1",
+    "discord.js": "^13.1.0",
+    "klaw": "^4.0.1",
+    "moment": "^2.29.1",
+    "ms": "^3.0.0-canary.1",
+    "node-fetch": "^2.6.1",
+    "path": "0.12.7",
+    "statcord.js": "^3.1.7",
+    "superagent": "7.1.1",
+    "typescript-module-alias": "^1.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": ">=16.x"
+  }
+}
