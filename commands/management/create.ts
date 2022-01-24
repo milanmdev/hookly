@@ -65,7 +65,7 @@ module.exports = {
         return interaction.followUp({
           embeds: [
             client.functions.error(
-              `An error has occured while creating the webhook: ${e}`
+              `An error has occured while creating the webhook: \`\`\`${e}\`\`\``
             ),
           ],
         });
