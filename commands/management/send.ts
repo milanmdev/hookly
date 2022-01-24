@@ -60,7 +60,7 @@ module.exports = {
     ownerOnly: false,
     ephemeral: false,
     cooldown: 3,
-    permissions: ["MANAGE_WEBHOOKS"],
+    permissions: ["MANAGE_WEBHOOKS", "SEND_MESSAGES"],
     clientPermissions: ["MANAGE_WEBHOOKS"],
   },
   async execute(client, interaction) {
