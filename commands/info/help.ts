@@ -45,8 +45,13 @@ module.exports = {
         )
         .addFields(
           {
-            name: ":tools: Utilities",
-            value: `\`/help category:utilities\``,
+            name: ":tools: Management",
+            value: `\`/help category:management\``,
+            inline: true,
+          },
+          {
+            name: ":pencil: Listing",
+            value: `\`/help category:listing\``,
             inline: true,
           },
           {
