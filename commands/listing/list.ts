@@ -91,6 +91,8 @@ module.exports = {
       .setLabel("Next")
       .setStyle("SUCCESS");
 
-    pagination(interaction, embeds, [previousButton, nextButton]);
+    pagination(interaction, embeds, [previousButton, nextButton], {
+      authorOnly: true,
+    });
   },
 };
