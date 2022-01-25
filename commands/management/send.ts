@@ -116,11 +116,12 @@ module.exports = {
         ],
       });
 
-    /*if (
-      !(
-        (color.value || timestamp.value) &&
-        (description.value || title.value || footer.value || author.value)
-      )
+    if (
+      (color.value || timestamp.value) &&
+      !description.value &&
+      !title.value &&
+      !author.value &&
+      !footer.value
     )
       return interaction.followUp({
         embeds: [
@@ -128,7 +129,7 @@ module.exports = {
             "You must provide a description, title, footer, and/or author when specifying a color and/or timestamp."
           ),
         ],
-      });*/ // TODO: Fix this
+      });
 
     if (
       description.value ||
