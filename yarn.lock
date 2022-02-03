@@ -59,10 +59,10 @@
     node-fetch "^2.6.5"
     tslib "^2.3.1"
 
-"@milanmdev/discordjs-button-pagination@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@milanmdev/discordjs-button-pagination/-/discordjs-button-pagination-1.0.2.tgz#64bec2b68ec6eda0b8de30002faaf9fe2fb3cbdb"
-  integrity sha512-hE7caD/ajyYH4Y7qR1pvquzIlS8+LNuG7UOXP/V8mJyKgwUpWmytA1BeVLr28ge5Dg1NWP/K8ObEgb/1soPeUQ==
+"@milanmdev/discordjs-button-pagination@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@milanmdev/discordjs-button-pagination/-/discordjs-button-pagination-1.0.3.tgz#4bf8977813b6b1aae68d96fa67a1c85176ebc841"
+  integrity sha512-2b0JCsAx9ESkhoyOIgkUd0IdD7UjVRzNDRuF4UFyK8kKPNPC9i1bzlW1XC+MVPc9rt9sF0dql91RXiWpNLq38Q==
   dependencies:
     discord.js "^13.0.1"
 
